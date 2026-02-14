@@ -1,11 +1,18 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Base.astro";
+import SideNav from "../components/SideNav.vue";
+import Hero from "../components/Hero.astro";
+import Projects from "../components/Projects.astro";
+import Stack from "../components/Stack.vue"
+import Contact from "../components/Contact.vue"
 ---
+<Layout title="Aimrane Draou | Full-Stack Developer">
+  <SideNav client:load />
 
-<Layout>
-	<Welcome />
+  <main class="max-w-6xl mx-auto px-6 py-20 lg:ml-32">
+    <Hero />
+	<Projects />
+	<Stack client:load/>
+	<Contact />
+  </main>
 </Layout>
