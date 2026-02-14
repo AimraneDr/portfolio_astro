@@ -15,7 +15,6 @@ const skills = [
   { name: 'MongoDB', type: 'Database', level: 'Fluent', icon: '🍃' },
   { name: 'Shopify', type: 'Ecommerce', level: 'Advanced', icon: '🛒' },
   { name: 'Liquid', type: 'Ecommerce', level: 'Advanced', icon: '💧' },
-  { name: 'Stripe', type: 'Ecommerce', level: 'Advanced', icon: '💳' },
   { name: 'C/C++', type: 'Languages', level: 'Intermediate', icon: '⚙️' },
   { name: 'WordPress', type: 'Tools', level: 'Intermediate', icon: '📝' },
   { name: 'Git', type: 'Tools', level: 'Expert', icon: '🌿' },
