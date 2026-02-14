@@ -7,8 +7,8 @@ import vue from '@astrojs/vue';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://AimraneDr.github.io',
-  base: '/',
+  site: 'https://AimraneDr.github.io/portfolio_astro',
+  base: '/portfolio_astro/',
   output: 'static',
   
   vite: {
