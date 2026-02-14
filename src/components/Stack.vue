@@ -13,12 +13,15 @@ const skills = [
   { name: 'Flutter', type: 'Mobile', level: 'Advanced', icon: '📱' },
   { name: 'MySQL & Oracle', type: 'Database', level: 'Expert', icon: '🗄️' },
   { name: 'MongoDB', type: 'Database', level: 'Fluent', icon: '🍃' },
+  { name: 'Shopify', type: 'Ecommerce', level: 'Advanced', icon: '🛒' },
+  { name: 'Liquid', type: 'Ecommerce', level: 'Advanced', icon: '💧' },
+  { name: 'Stripe', type: 'Ecommerce', level: 'Advanced', icon: '💳' },
   { name: 'C/C++', type: 'Languages', level: 'Intermediate', icon: '⚙️' },
   { name: 'WordPress', type: 'Tools', level: 'Intermediate', icon: '📝' },
   { name: 'Git', type: 'Tools', level: 'Expert', icon: '🌿' },
 ];
 
-const categories = ['Frontend', 'Backend', 'Mobile', 'Database', 'Languages', 'Tools'];
+const categories = ['Frontend', 'Backend', 'Mobile', 'Database', 'Ecommerce', 'Languages', 'Tools'];
 const groupedSkills = computed(() => {
   return categories.reduce((acc, category) => {
     acc[category] = skills.filter(skill => skill.type === category);
