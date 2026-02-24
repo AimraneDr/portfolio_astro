@@ -5,6 +5,7 @@ const skills = [
   { name: 'React', type: 'Frontend', level: 'Expert', icon: '⚛️' },
   { name: 'Vue.js', type: 'Frontend', level: 'Expert', icon: '💚' },
   { name: 'Angular', type: 'Frontend', level: 'Advanced', icon: '🅰️' },
+  { name: 'Bootstrap CSS', type: 'Frontend', level: 'Expert', icon: '🎨' },
   { name: 'Tailwind CSS', type: 'Frontend', level: 'Expert', icon: '🎨' },
   { name: 'Laravel', type: 'Backend', level: 'Expert', icon: '🔴' },
   { name: 'Django', type: 'Backend', level: 'Advanced', icon: '🐍' },
